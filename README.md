@@ -26,10 +26,9 @@ Ao completar, não esqueça de publicar no linkedin e adicionar #handsOnRoadmap
 
 <br />
 
-Imagine que neste projeto você vou contratado para criar um folder de divulgação de planos de viagem.
-Existem 3 modelos de planos possível, sendo econômico, padrão e deluxe.
+Imagine que foi pedido a você para montar um aplicação para servir de contador de pontos de um desafio.
 
-E esse folder deve servir como divulgação para vendas desses modelos de pacotes.
+Devido a uma gincana que irá ser realizada por uma comunidade da sua cidade. E uma pessoa que te conhece indicou seu trabalho como front-end para criar o contador de pontos.
 
 <br />
 
@@ -43,11 +42,12 @@ Sua aplicação deve ter:
 
 <br />
 
-- Um card centralizado na tela, que contenha três colunas.
-- Cada coluna deve conter um título, a descrição de um plano e ao final um botão de ação com escrita "Compre agora".
-- Cada coluna deve ser de uma cor, mas mantendo a mesma fonte, tamanho e espaçamentos.
-- As colunas devem vir de um componente só, assim como os títulos, textos de descrição e botão. Sendo Reutilizáveis para as demais colunas.
-- As diferenciaçoes dos componentes devem utilizar props e children.
+- Uma página que tenha contadores de pontos.
+- O contador sempre contempla um lado vermelho e um azul, porque sempre será sempre entre dois advversários.
+- Os placares podem ter pontos somados ou subtraídos.
+- Dever se possível somar ou subtrair 1, 3, 5 e 10 pontos.
+- Cada ação de soma ou de subtração é um botão, sendo que deve haver botões para a equipe azul e para equipe vermelha. Portando havendo 8 botões por equipe.
+- Deve ser possível resetar o contador de pontos, sendo um botão para resetar os pontos de ambas equipes.
 
 ### :dart: Requisitos não funcionais <a name="id01.2.2"></a>
 
@@ -57,6 +57,7 @@ Sua aplicação deve ter:
 
 - ReactJs
 - fazer deploy
+- useState
 
 <br />
 
@@ -124,11 +125,11 @@ Antes ou depois de realizar esse desafio, você pode pegar desafios parecidos do
 
 O segredo aqui é fazer modelos parecidos até ganhar algum conforto com fazer algo com essas técnicas e esse modelo de desafio, então quem sabe pegar outros mais difíceis.
 
-[3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+[FAQ accordion card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
 
 <br>
 
-[Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+[Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT)
 
 <br>
 
